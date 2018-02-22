@@ -1,0 +1,94 @@
+USE LKS2018;
+
+CREATE TABLE Teacher
+(
+	TeacherID VARCHAR(8) PRIMARY KEY,
+	Name VARCHAR(50) NOT NULL,
+	PhoneNumber VARCHAR(12) NOT NULL,
+	DateofBirth DATE NOT NULL,
+	Gender VARCHAR(7) NOT NULL,
+	[Address] VARCHAR(100) NOT NULL,
+	Photo VARCHAR(100)
+)
+
+CREATE TABLE [Subject]
+(
+	SubjectID CHAR(5) PRIMARY KEY,
+	Name VARCHAR(50) NOT NULL,
+	Assignment INT NOT NULL,
+	MidExam INT NOT NULL,
+	FinalExam INT NOT NULL,
+	ShiftDuration INT NOT NULL,
+	Grade INT NOT NULL
+)
+
+CREATE TABLE Class
+(
+	ClassName VARCHAR(5) PRIMARY KEY,
+	Grade INT NOT NULL
+)
+
+CREATE TABLE Student
+(
+	StudentID VARCHAR(8) PRIMARY KEY,
+	Name VARCHAR(50) NOT NULL,
+	[Address] VARCHAR(150) NOT NULL,
+	Gender VARCHAR(7) NOT NULL,
+	DateofBirth DATE NOT NULL,
+	PhoneNumber VARCHAR(12) NOT NULL,
+	Photo VARCHAR(100)
+)
+
+CREATE TABLE [User]
+(
+	UserID INT PRIMARY KEY,
+	Username VARCHAR(8) NOT NULL,
+	[Password] VARCHAR(100) NOT NULL,
+	[Role] VARCHAR(8) NOT NULL
+)
+
+CREATE TABLE HeaderSchedule
+(
+	ScheduleID INT PRIMARY KEY,
+	ClassName VARCHAR(5) NOT NULL,
+	Finalize INT NOT NULL
+)
+
+CREATE TABLE [Shift]
+(
+	ShiftID INT PRIMARY KEY,
+	[Time] CHAR(13) NOT NULL
+)
+
+CREATE TABLE DetailSchedule
+(
+	DetailID INT PRIMARY KEY,
+	ScheduleID INT FOREIGN KEY REFERENCES HeaderSchedule(ScheduleID),
+	SubjectID CHAR(5) FOREIGN KEY REFERENCES [Subject](SubjectID),
+	TeacherID VARCHAR(8) FOREIGN KEY REFERENCES Teacher(TeacherID),
+	ShiftID INT FOREIGN KEY REFERENCES [Shift](ShiftID)
+)
+
+CREATE TABLE DetailScore
+(
+	ScoreDetailID INT PRIMARY KEY,
+	DetailID INT FOREIGN KEY REFERENCES DetailSchedule(DetailID),
+	StudentID VARCHAR(8) FOREIGN KEY REFERENCES Student(StudentID),
+	Assignment INT,
+	MidExam INT,
+	FinalExam INT
+)
+
+CREATE TABLE DetailClass
+(
+	DetailClassId INT PRIMARY KEY,
+	ClassName VARCHAR(5) FOREIGN KEY REFERENCES Class(ClassName),
+	StudentID VARCHAR(8) FOREIGN KEY REFERENCES Student(StudentID)
+)
+
+CREATE TABLE Expertise
+(
+	ExpertiseId INT PRIMARY KEY,
+	TeacherID VARCHAR(8) FOREIGN KEY REFERENCES Teacher(TeacherID),
+	SubjectID CHAR(5) FOREIGN KEY REFERENCES [Subject](SubjectID),
+)
