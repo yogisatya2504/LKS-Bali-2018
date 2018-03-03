@@ -66,7 +66,8 @@ CREATE TABLE DetailSchedule
 	ScheduleID INT FOREIGN KEY REFERENCES HeaderSchedule(ScheduleID),
 	SubjectID CHAR(5) FOREIGN KEY REFERENCES [Subject](SubjectID),
 	TeacherID VARCHAR(8) FOREIGN KEY REFERENCES Teacher(TeacherID),
-	ShiftID INT FOREIGN KEY REFERENCES [Shift](ShiftID)
+	ShiftID INT FOREIGN KEY REFERENCES [Shift](ShiftID),
+	[Day] CHAR(10)
 )
 
 CREATE TABLE DetailScore
