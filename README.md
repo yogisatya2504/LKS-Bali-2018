@@ -6,3 +6,4 @@
 - Insert query database SQL Server
 - Select query database SQL Server
 - Desain tampilan
+- Fix modul 1
