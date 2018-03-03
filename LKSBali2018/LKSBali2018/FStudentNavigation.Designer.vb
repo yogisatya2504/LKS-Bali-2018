@@ -26,7 +26,7 @@ Partial Class FStudentNavigation
         Me.bscore = New System.Windows.Forms.Button()
         Me.bschedule = New System.Windows.Forms.Button()
         Me.bedit = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lwelcome = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'blogout
@@ -65,15 +65,15 @@ Partial Class FStudentNavigation
         Me.bedit.Text = "Edit Profile"
         Me.bedit.UseVisualStyleBackColor = True
         '
-        'Label1
+        'lwelcome
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 24)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(184, 20)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Welcome, [ Nama Murid ]"
+        Me.lwelcome.AutoSize = True
+        Me.lwelcome.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lwelcome.Location = New System.Drawing.Point(12, 24)
+        Me.lwelcome.Name = "lwelcome"
+        Me.lwelcome.Size = New System.Drawing.Size(184, 20)
+        Me.lwelcome.TabIndex = 2
+        Me.lwelcome.Text = "Welcome, [ Nama Murid ]"
         '
         'FStudentNavigation
         '
@@ -84,7 +84,7 @@ Partial Class FStudentNavigation
         Me.Controls.Add(Me.bscore)
         Me.Controls.Add(Me.bschedule)
         Me.Controls.Add(Me.bedit)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lwelcome)
         Me.Name = "FStudentNavigation"
         Me.Text = "FStudentNavigation"
         Me.ResumeLayout(False)
@@ -95,5 +95,5 @@ Partial Class FStudentNavigation
     Friend WithEvents bscore As System.Windows.Forms.Button
     Friend WithEvents bschedule As System.Windows.Forms.Button
     Friend WithEvents bedit As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lwelcome As System.Windows.Forms.Label
 End Class

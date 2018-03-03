@@ -22,22 +22,22 @@ Partial Class FTeacherNavigation
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lwelcome = New System.Windows.Forms.Label()
         Me.bedit = New System.Windows.Forms.Button()
         Me.bschedule = New System.Windows.Forms.Button()
         Me.bscore = New System.Windows.Forms.Button()
         Me.blogout = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'lwelcome
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(181, 20)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Welcome, [ Nama Guru ]"
+        Me.lwelcome.AutoSize = True
+        Me.lwelcome.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lwelcome.Location = New System.Drawing.Point(12, 22)
+        Me.lwelcome.Name = "lwelcome"
+        Me.lwelcome.Size = New System.Drawing.Size(181, 20)
+        Me.lwelcome.TabIndex = 0
+        Me.lwelcome.Text = "Welcome, [ Nama Guru ]"
         '
         'bedit
         '
@@ -84,14 +84,14 @@ Partial Class FTeacherNavigation
         Me.Controls.Add(Me.bscore)
         Me.Controls.Add(Me.bschedule)
         Me.Controls.Add(Me.bedit)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lwelcome)
         Me.Name = "FTeacherNavigation"
         Me.Text = "FTeacherNavigation"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lwelcome As System.Windows.Forms.Label
     Friend WithEvents bedit As System.Windows.Forms.Button
     Friend WithEvents bschedule As System.Windows.Forms.Button
     Friend WithEvents bscore As System.Windows.Forms.Button

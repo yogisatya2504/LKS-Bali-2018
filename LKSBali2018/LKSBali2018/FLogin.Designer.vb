@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class FLogin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -69,6 +69,7 @@ Partial Class Form1
         '
         Me.tpwd.Location = New System.Drawing.Point(91, 123)
         Me.tpwd.Name = "tpwd"
+        Me.tpwd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.tpwd.Size = New System.Drawing.Size(167, 20)
         Me.tpwd.TabIndex = 1
         '
@@ -81,7 +82,7 @@ Partial Class Form1
         Me.blogin.Text = "Login"
         Me.blogin.UseVisualStyleBackColor = True
         '
-        'Form1
+        'FLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -92,7 +93,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "FLogin"
         Me.Text = "FLogin"
         Me.ResumeLayout(False)
         Me.PerformLayout()

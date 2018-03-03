@@ -45,6 +45,7 @@ Partial Class FChangePassword
         '
         Me.tconfirm.Location = New System.Drawing.Point(122, 108)
         Me.tconfirm.Name = "tconfirm"
+        Me.tconfirm.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.tconfirm.Size = New System.Drawing.Size(150, 20)
         Me.tconfirm.TabIndex = 43
         '
@@ -61,6 +62,7 @@ Partial Class FChangePassword
         '
         Me.tnew.Location = New System.Drawing.Point(122, 82)
         Me.tnew.Name = "tnew"
+        Me.tnew.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.tnew.Size = New System.Drawing.Size(150, 20)
         Me.tnew.TabIndex = 44
         '

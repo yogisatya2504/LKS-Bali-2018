@@ -1,1 +1,27 @@
 c:\users\yogi\documents\visual studio 2012\Projects\LKSBali2018\LKSBali2018\bin\Debug\LKSBali2018.exe.config
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\bin\Debug\LKSBali2018.exe.config
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\bin\Debug\LKSBali2018.exe
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\bin\Debug\LKSBali2018.pdb
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\bin\Debug\LKSBali2018.xml
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FAdminNavigation.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FChangePassword.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FEditProfile.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FEntryScore.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FFinalizeSchedule.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FInputScoreForm.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FManageClass.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FManageScheduleForm.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FManageStudent.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FManageTeacher.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FReportScore.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FStudentNavigation.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FTeacherNavigation.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FViewScheduleTeacher.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FViewScore.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FViewTeachingSchedule.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.Resources.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.vbproj.GenerateResource.Cache
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.exe
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.xml
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.pdb
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FLogin.resources

@@ -54,6 +54,7 @@ Partial Class FEditProfile
         Me.pb.Location = New System.Drawing.Point(75, 36)
         Me.pb.Name = "pb"
         Me.pb.Size = New System.Drawing.Size(146, 143)
+        Me.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pb.TabIndex = 13
         Me.pb.TabStop = False
         '

@@ -26,7 +26,7 @@ Partial Class FAdminNavigation
         Me.bscore = New System.Windows.Forms.Button()
         Me.bschedule = New System.Windows.Forms.Button()
         Me.bedit = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lwelcome = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -68,15 +68,15 @@ Partial Class FAdminNavigation
         Me.bedit.Text = "Manage Student"
         Me.bedit.UseVisualStyleBackColor = True
         '
-        'Label1
+        'lwelcome
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 25)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(190, 20)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Welcome, [ Nama Admin ]"
+        Me.lwelcome.AutoSize = True
+        Me.lwelcome.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lwelcome.Location = New System.Drawing.Point(12, 25)
+        Me.lwelcome.Name = "lwelcome"
+        Me.lwelcome.Size = New System.Drawing.Size(128, 20)
+        Me.lwelcome.TabIndex = 7
+        Me.lwelcome.Text = "Welcome, Admin"
         '
         'Button1
         '
@@ -117,7 +117,7 @@ Partial Class FAdminNavigation
         Me.Controls.Add(Me.bschedule)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.bedit)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lwelcome)
         Me.Name = "FAdminNavigation"
         Me.Text = "FAdminNavigation"
         Me.ResumeLayout(False)
@@ -128,7 +128,7 @@ Partial Class FAdminNavigation
     Friend WithEvents bscore As System.Windows.Forms.Button
     Friend WithEvents bschedule As System.Windows.Forms.Button
     Friend WithEvents bedit As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lwelcome As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
