@@ -18,10 +18,10 @@ C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FTeacherNavigation.resources
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FViewScheduleTeacher.resources
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FViewScore.resources
-C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FViewTeachingSchedule.resources
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.Resources.resources
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.vbproj.GenerateResource.Cache
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.exe
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.xml
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.pdb
 C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FLogin.resources
+C:\Users\Yogi\Documents\LKS-Bali-2018\LKSBali2018\LKSBali2018\obj\Debug\LKSBali2018.FViewShcedule.resources

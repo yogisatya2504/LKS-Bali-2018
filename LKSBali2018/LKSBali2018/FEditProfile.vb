@@ -46,7 +46,7 @@
             Exit Sub
         End If
 
-        If tbphone.Text.Length > 12 Or (tbphone.Text(0) <> "0" And tbphone.Text(1) <> "8") Then
+        If tbphone.Text.Length > 12 Or tbphone.Text.Length < 11 Or (tbphone.Text(0) <> "0" Or tbphone.Text(1) <> "8") Then
             MsgBox("Phone number must be 11 – 12 Digit and start with 08")
             Exit Sub
         End If

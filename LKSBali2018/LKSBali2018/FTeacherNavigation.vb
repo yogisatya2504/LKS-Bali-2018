@@ -23,4 +23,14 @@
         FEditProfile.Show()
         FEditProfile.loadprofile("select TeacherID, Name, PhoneNumber, [Address], Photo from Teacher where TeacherID = '" & FLogin.tuname.Text & "'", "Teacher")
     End Sub
+
+    Private Sub bschedule_Click(sender As Object, e As EventArgs) Handles bschedule.Click
+        FViewScheduleTeacher.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub bscore_Click(sender As Object, e As EventArgs) Handles bscore.Click
+        FInputScoreForm.Show()
+        Me.Hide()
+    End Sub
 End Class

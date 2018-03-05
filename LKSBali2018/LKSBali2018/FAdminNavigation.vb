@@ -11,4 +11,9 @@
             Me.Close()
         End If
     End Sub
+
+    Private Sub bedit_Click(sender As Object, e As EventArgs) Handles bedit.Click
+        FManageStudent.Show()
+        Me.Hide()
+    End Sub
 End Class

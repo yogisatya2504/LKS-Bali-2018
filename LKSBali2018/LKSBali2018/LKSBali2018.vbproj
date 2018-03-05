@@ -168,10 +168,10 @@
     <Compile Include="FViewScore.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FViewTeachingSchedule.Designer.vb">
-      <DependentUpon>FViewTeachingSchedule.vb</DependentUpon>
+    <Compile Include="FViewShcedule.Designer.vb">
+      <DependentUpon>FViewShcedule.vb</DependentUpon>
     </Compile>
-    <Compile Include="FViewTeachingSchedule.vb">
+    <Compile Include="FViewShcedule.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModulDB.vb" />
@@ -240,8 +240,8 @@
     <EmbeddedResource Include="FViewScore.resx">
       <DependentUpon>FViewScore.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FViewTeachingSchedule.resx">
-      <DependentUpon>FViewTeachingSchedule.vb</DependentUpon>
+    <EmbeddedResource Include="FViewShcedule.resx">
+      <DependentUpon>FViewShcedule.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
