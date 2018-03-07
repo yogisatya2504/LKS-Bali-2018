@@ -11,9 +11,15 @@
 
         dgvschedule.DataSource = dt1
 
+        
+    End Sub
+
+    Private Sub dgvschedule_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvschedule.CellContentClick
+        Dim id As String = dgvschedule.Rows(dgvschedule.CurrentRow.Index).Cells(0).Value.ToString
+
         ' Untuk student list
         Dim dt2 As New DataTable
-        dt2 = sqlcek("select * from Student where StudentID in (select StudentID from DetailClass where ClassName in (select ClassName from HeaderSchedule where ScheduleID in (select ScheduleID from DetailSchedule where TeacherID = '" & FLogin.tuname.Text & "') and Finalize = '1'))")
+        dt2 = sqlcek("select * from Student where StudentID in (select StudentID from DetailClass where ClassName in (select ClassName from HeaderSchedule where ScheduleID in (select ScheduleID from DetailSchedule where TeacherID = '" & FLogin.tuname.Text & "' and SubjectID = '" & id & "') and Finalize = '1'))")
 
         dgvstudentlist.DataSource = dt2
     End Sub

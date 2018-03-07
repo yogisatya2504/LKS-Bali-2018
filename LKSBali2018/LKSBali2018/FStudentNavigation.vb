@@ -24,8 +24,9 @@
         FEditProfile.loadprofile("select StudentID, Name, PhoneNumber, [Address], Photo from Student where StudentID = '" & FLogin.tuname.Text & "'", "Student")
     End Sub
 
-    Private Sub bschedule_Click(sender As Object, e As EventArgs) Handles bschedule.Click
-        FViewShcedule.Show()
+
+    Private Sub bscore_Click(sender As Object, e As EventArgs) Handles bscore.Click
+        FViewScore.Show()
         Me.Hide()
     End Sub
 End Class

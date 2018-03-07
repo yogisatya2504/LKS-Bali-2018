@@ -26,7 +26,6 @@ Partial Class FEntryScore
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.tassignment = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.tmid = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.tfinal = New System.Windows.Forms.TextBox()
@@ -67,16 +66,9 @@ Partial Class FEntryScore
         Me.tassignment.Size = New System.Drawing.Size(150, 20)
         Me.tassignment.TabIndex = 9
         '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(101, 69)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(150, 20)
-        Me.TextBox2.TabIndex = 9
-        '
         'tmid
         '
-        Me.tmid.Location = New System.Drawing.Point(101, 71)
+        Me.tmid.Location = New System.Drawing.Point(101, 69)
         Me.tmid.Name = "tmid"
         Me.tmid.Size = New System.Drawing.Size(150, 20)
         Me.tmid.TabIndex = 9
@@ -114,7 +106,6 @@ Partial Class FEntryScore
         Me.Controls.Add(Me.bsave)
         Me.Controls.Add(Me.tfinal)
         Me.Controls.Add(Me.tmid)
-        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.tassignment)
         Me.Controls.Add(Me.Label3)
@@ -130,7 +121,6 @@ Partial Class FEntryScore
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents tassignment As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents tmid As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents tfinal As System.Windows.Forms.TextBox

@@ -91,6 +91,9 @@
         Dim dt As New DataTable
         dt = sqlcek("select top 1 StudentID from Student order by StudentID desc")
         Dim id() As String = Split(dt.Rows(0).Item(0).ToString, Now.Year.ToString)
+        If id(0) = "" Then
+
+        End If
         Dim idx As Integer = Convert.ToInt32(id(1)) + 1
         id(0) = idx.ToString
         id(1) = ""
